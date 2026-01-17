@@ -25,7 +25,7 @@ Navigate to the [**`cuda-q-academic`**](https://github.com/Squirtle007/cudaq-wor
 
 # Docker Instructions
 
-Follow these steps to set up the lab environment in a Docker container:
+Follow these steps to set up the lab environment using a [Docker container](https://www.docker.com/):
 
 ## Build the image
 
@@ -55,3 +55,4 @@ Highly recommend exploring official resources below to continue learning:
 * 🎓 [CUDA-Q Academic](https://github.com/NVIDIA/cuda-q-academic) – Educational resources and research materials
 * 📚 [NVIDIA CUDA-Q Documentation](https://nvidia.github.io/cuda-quantum/latest/) – Comprehensive guides and API references
 * 💻 [CUDA-Q GitHub Repository](https://github.com/NVIDIA/cuda-quantum) – Source code, examples, and community discussions
+
