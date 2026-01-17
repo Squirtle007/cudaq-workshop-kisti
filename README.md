@@ -38,7 +38,7 @@ docker build -t cudaq-env:latest .
 
 Start the container with GPU support and map port `8888` for JupyterLab access:
 ```
-docker run -it --rm --gpus all -p 8888:8888 cudaq-env:latest
+docker run -it --gpus all -p 8888:8888 cudaq-env:latest
 ```
 
 ## Access JupyterLab
@@ -55,5 +55,6 @@ Highly recommend exploring official resources below to continue learning:
 * 🎓 [CUDA-Q Academic](https://github.com/NVIDIA/cuda-q-academic) – Educational resources and research materials
 * 📚 [NVIDIA CUDA-Q Documentation](https://nvidia.github.io/cuda-quantum/latest/) – Comprehensive guides and API references
 * 💻 [CUDA-Q GitHub Repository](https://github.com/NVIDIA/cuda-quantum) – Source code, examples, and community discussions
+
 
 
