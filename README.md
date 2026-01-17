@@ -42,3 +42,10 @@ Once the container is running, open your browser and visit:
 http://localhost:8888
 
 ```
+
+# Beyond This Lab
+
+Highly recommend exploring official resources below to continue learning:
+* 🎓 [CUDA-Q Academic](https://github.com/NVIDIA/cuda-q-academic) – Educational resources and research materials
+* 📚 [NVIDIA CUDA-Q Documentation](https://nvidia.github.io/cuda-quantum/latest/) – Comprehensive guides and API references
+* 💻 [CUDA-Q GitHub Repository](https://github.com/NVIDIA/cuda-quantum) – Source code, examples, and community discussions
