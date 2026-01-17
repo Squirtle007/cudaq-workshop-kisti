@@ -6,20 +6,20 @@ Explore CUDA-Q through hands-on labs covering quantum computing fundamentals, qu
 
 Navigate to the [**`cuda-q-academic`**](https://github.com/Squirtle007/cudaq-workshop-kisti/tree/main/cuda-q-academic) folder which contains 4 labs:
 
-### Getting started with CUDA-Q
+### 1. Getting started with CUDA-Q
 * [`quick-start-to-quantum/00_cudaq_basics.ipynb`](https://github.com/Squirtle007/cudaq-workshop-kisti/blob/main/cuda-q-academic/quick-start-to-quantum/00_cudaq_basics.ipynb)
 * [`quick-start-to-quantum/01_quick_start_to_quantum.ipynb`](https://github.com/Squirtle007/cudaq-workshop-kisti/blob/main/cuda-q-academic/quick-start-to-quantum/01_quick_start_to_quantum.ipynb)
 * [`quick-start-to-quantum/02_quick_start_to_quantum.ipynb`](https://github.com/Squirtle007/cudaq-workshop-kisti/blob/main/cuda-q-academic/quick-start-to-quantum/02_quick_start_to_quantum.ipynb)
 
-### Advanced Applications with CUDA-Q - Quantum Chemistry
+### 2. Advanced Applications with CUDA-Q - Quantum Chemistry
 * [`chemistry-simulations/vqe_basics.ipynb`](https://github.com/Squirtle007/cudaq-workshop-kisti/blob/main/cuda-q-academic/chemistry-simulations/vqe_basics.ipynb)
 * [`chemistry-simulations/adapt_vqe.ipynb`](https://github.com/Squirtle007/cudaq-workshop-kisti/blob/main/cuda-q-academic/chemistry-simulations/adapt_vqe.ipynb)
 
-### Advanced Applications with CUDA-Q - Quantum Error Correction
+### 3. Advanced Applications with CUDA-Q - Quantum Error Correction
 * [`qec101/01_QEC_Intro.ipynb`](https://github.com/Squirtle007/cudaq-workshop-kisti/blob/main/cuda-q-academic/qec101/01_QEC_Intro.ipynb)
 * [`qec101/02_QEC_Stabilizers.ipynb`](https://github.com/Squirtle007/cudaq-workshop-kisti/blob/main/cuda-q-academic/qec101/02_QEC_Stabilizers.ipynb)
 
-### Advanced Applications with CUDA-Q - AI for Quantum
+### 4. Advanced Applications with CUDA-Q - AI for Quantum
 * [`ai-for-quantum/00_[simplified]compiling_unitaries_using_diffusion_models.ipynb`](https://github.com/Squirtle007/cudaq-workshop-kisti/blob/main/cuda-q-academic/ai-for-quantum/00_%5Bsimplified%5Dcompiling_unitaries_using_diffusion_models.ipynb)
 
 
@@ -36,7 +36,7 @@ docker build -t cudaq-env:latest .
 
 ## Run the container
 
-Start the container with GPU support and map port 8888 for JupyterLab access:
+Start the container with GPU support and map port `8888` for JupyterLab access:
 ```
 docker run -it --rm --gpus all -p 8888:8888 cudaq-env:latest
 ```
@@ -55,4 +55,5 @@ Highly recommend exploring official resources below to continue learning:
 * 🎓 [CUDA-Q Academic](https://github.com/NVIDIA/cuda-q-academic) – Educational resources and research materials
 * 📚 [NVIDIA CUDA-Q Documentation](https://nvidia.github.io/cuda-quantum/latest/) – Comprehensive guides and API references
 * 💻 [CUDA-Q GitHub Repository](https://github.com/NVIDIA/cuda-quantum) – Source code, examples, and community discussions
+
 
