@@ -27,30 +27,61 @@ Navigate to the [**`cuda-q-academic`**](https://github.com/Squirtle007/cudaq-wor
 * [`ai-for-quantum/00_[simplified]compiling_unitaries_using_diffusion_models.ipynb`](https://github.com/Squirtle007/cudaq-workshop-kisti/blob/main/cuda-q-academic/ai-for-quantum/00_%5Bsimplified%5Dcompiling_unitaries_using_diffusion_models.ipynb)
 
 
-# Docker Instructions
+# Self-Hosted Hands-on Lab Setup
+
+## Docker Instructions (✅Recommended)
 
 Follow these steps to set up the lab environment using a [Docker container](https://www.docker.com/):
 
-## Build the image
+### Build the image
 
 Go to the folder containing the [Dockerfile](./dockerfile), then run the following command to build the image:
-```
+```bash
 docker build -t cudaq-env:latest .
 ```
 
-## Run the container
+### Run the container
 
 Start the container with GPU support and map port `8888` for JupyterLab access:
-```
+```bash
 docker run -it --gpus all -p 8888:8888 cudaq-env:latest
 ```
 
-## Access JupyterLab
+### Access JupyterLab
 
 Once the container is running, open your browser and visit:
 ```
 http://localhost:8888
 ```
+
+## pip Install Instructions
+
+An alternative method if you prefer installing packages directly in your local environment.
+
+### Prerequisites
+
+Make sure your system configuration (Python/driver/CUDA version) meets the [Dependencies and Compatibility](https://nvidia.github.io/cuda-quantum/latest/using/install/local_installation.html#dependencies-and-compatibility) requirements.
+
+### Install dependencies
+
+Run the following commands in your local environment, with the [requirements.txt](./requirements.txt) in your current directory:
+```bash
+sudo apt update && sudo apt install -y gfortran python3-pip git
+pip install cudaq==0.13.0
+pip install -r requirements.txt
+```
+
+### Clone the repository
+
+Clone this repository to get the tutorials:
+```bash
+git clone https://github.com/Squirtle007/cudaq-workshop-kisti.git
+cd cudaq-workshop-kisti/cuda-q-academic
+```
+
+### Note
+
+> ⚠️ The Docker method is recommended as it provides a pre-configured environment with all dependencies. The pip install method may require additional configuration depending on your system setup.
 
 
 # Beyond This Lab
@@ -59,8 +90,3 @@ Highly recommend exploring official resources below to continue learning:
 * 🎓 [CUDA-Q Academic](https://github.com/NVIDIA/cuda-q-academic) – Educational resources and research materials
 * 📚 [NVIDIA CUDA-Q Documentation](https://nvidia.github.io/cuda-quantum/latest/) – Comprehensive guides and API references
 * 💻 [CUDA-Q GitHub Repository](https://github.com/NVIDIA/cuda-quantum) – Source code, examples, and community discussions
-
-
-
-
-
