@@ -26,6 +26,10 @@ Navigate to the [**`tutorials`**](https://github.com/Squirtle007/kisti-workshop/
 ### 4. Advanced Applications with CUDA-Q - AI for Quantum
 * [`ai-for-quantum/00_[simplified]compiling_unitaries_using_diffusion_models.ipynb`](https://github.com/Squirtle007/kisti-workshop/blob/main/tutorials/ai-for-quantum/00_%5Bsimplified%5Dcompiling_unitaries_using_diffusion_models.ipynb)
 
+### [Bonus] Quantum Phase Classification using Quantum Convolutional Neural Networks (QCNN)
+* [`quantum-machine-learning/QCNN_phase_cudaq.ipynb`](https://github.com/Squirtle007/kisti-workshop/blob/main/tutorials/quantum-machine-learning/QCNN_phase_cudaq.ipynb)
+
+
 <br>
 
 # Self-Hosted Hands-on Lab Setup
