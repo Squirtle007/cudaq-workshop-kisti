@@ -80,7 +80,7 @@ pip install -r requirements.txt
 
 Clone this repository to get the tutorials:
 ```bash
-git clone https://github.com/Squirtle007/kisti-workshop.git
+git clone -b 2026-workshops https://github.com/NVIDIA/cuda-q-academic.git
 cd kisti-workshop/tutorials
 ```
 
