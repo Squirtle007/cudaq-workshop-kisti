@@ -22,7 +22,7 @@ RUN pip3 install --no-cache-dir -v \
 RUN python3 -m jupyter --version
 
 WORKDIR /home/cudaq
-RUN git clone https://github.com/Squirtle007/cuda-q-academic.git
+RUN git clone https://github.com/Squirtle007/kisti-workshop.git
 
 EXPOSE 8888
 
