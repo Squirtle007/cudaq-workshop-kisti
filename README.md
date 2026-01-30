@@ -79,8 +79,8 @@ pip install cudaq==0.13.0 cudaq-solvers==0.5.0 cudaq_qec==0.5.0
 
 Clone this repository to get the tutorials and install the necessary libraries with the [`requirements.txt`](./requirements.txt) in your current directory:
 ```bash
-git clone -b 2026-workshops https://github.com/NVIDIA/cuda-q-academic.git
-cd cuda-q-academic/kisti-workshop && pip install -r requirements.txt
+git clone https://github.com/Squirtle007/kisti-workshop.git
+cd kisti-workshop && pip install -r requirements.txt
 ```
 
 <br>
